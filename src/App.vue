@@ -37,8 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Prendre toute la hauteur de la fenêtre */
-  width: 100%; /* Assurer que le body prend toute la largeur */
+  height: 100vh; 
 }
 
 .container {
@@ -49,7 +48,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
- /* Cela fonctionne pour centrer horizontalement */
+
 }
 
 
@@ -102,7 +101,7 @@ button {
 
 button:hover {
   background-color: #004d40; 
-  transform: translateY(-2px); /* Lift effect */
+  transform: translateY(-2px);
 }
 
 ul {
@@ -122,7 +121,7 @@ li {
 
 li:hover {
   background-color: #b2ebf2; 
-  transform: translateX(2px); /* Slight slide effect */
+  transform: translateX(2px); 
 }
 
 .completed {
